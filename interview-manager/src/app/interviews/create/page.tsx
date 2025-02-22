@@ -53,7 +53,6 @@ export default function Page() {
                         >
                             <CustomRadio
                                 value="elevenlabs"
-                                children={"ElevenLabs"}
                                 description={
                                     <ol>
                                         <li>First principles</li>
@@ -61,10 +60,11 @@ export default function Page() {
                                         <li>Owning outcomes</li>
                                     </ol>
                                 }
-                            />
+                            >
+                                ElevenLabs
+                            </CustomRadio>
                             <CustomRadio
                                 value="netflix"
-                                children={"Netflix"}
                                 description={
                                     <ol>
                                         <li>The Dream Team</li>
@@ -73,14 +73,17 @@ export default function Page() {
                                         <li>Great and Always Better</li>
                                     </ol>
                                 }
-                            />
+                            >
+                                Netflix
+                            </CustomRadio>
                             <CustomRadio
                                 value="custom"
-                                children={"Customize"}
                                 description={
                                     "Start by interview with our expert AI Recruiting Assistant."
                                 }
-                            />
+                            >
+                                Customize
+                            </CustomRadio>
                         </RadioGroup>
                         <Button className="w-full" color="primary" type="button" onPress={moveStep2}>
                             Next
