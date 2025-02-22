@@ -1,8 +1,7 @@
 'use client';
 
-import {Button, cn, RadioProps, Select, SelectItem} from "@heroui/react";
+import {Button, cn, Radio, RadioGroup, RadioProps, Select, SelectItem} from "@heroui/react";
 import {PropsWithChildren, useState} from "react";
-import {Radio, RadioGroup} from "@heroui/radio";
 
 const CustomRadio = (props: PropsWithChildren<RadioProps>) => {
     const {children, ...otherProps} = props;
