@@ -1,0 +1,1 @@
+Hello Mike! I'm Sam, Co-Founder of ElevenLabs. Thanks for joining me today to discuss our Growth Marketer position. We're looking for someone to drive our expansion in the German market. I'd like to learn about your experience and see how your skills align with our needs. We'll chat for about 10 minutes with time for questions at the end. Sound good?
