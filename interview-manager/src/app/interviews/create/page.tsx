@@ -34,7 +34,7 @@ export default function Page() {
 
     const submit = async () => {
         if (step !== 2) return;
-        await (new Promise(resolve => setTimeout(resolve, 1500)));
+        await (new Promise(resolve => setTimeout(resolve, 2000)));
         setInterviewId(crypto.randomUUID().replace(/-/g, ''))
         setStep(3);
     }
@@ -116,7 +116,7 @@ export default function Page() {
                 {(step === 3) && (
                     <>
                         <h3>Share this link to candidate.</h3>
-                        <p>https://https://aha-interview-ui.vercel.app/?session={interviewId}</p>
+                        <p>https://aha-interview-ui.vercel.app/?session={interviewId}</p>
                     </>
                 )}
             </main>
